@@ -1,175 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Anime World</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-        body {
-            background-color: #0f172a;
-            color: white;
-        }
-        .card {
-            background-color: #1e293b;
-            color: white;
-        }
-        .card img {
-            height: 200px;
-            object-fit: cover;
-        }
-        .navbar {
-            background-color: #020617 !important;
-        }
-        footer {
-            background-color: #020617;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenovo Hub - ThinkPad, IdeaPad & LOQ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+<body class="bg-light d-flex flex-column min-vh-100">
 
-<body>
-
-<!-- Navbar with Search -->
-<nav class="navbar navbar-expand-lg navbar-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand">Anime World</a>
-
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="menu">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item"><a class="nav-link">Home</a></li>
-        <li class="nav-item"><a class="nav-link">Popular</a></li>
-        <li class="nav-item"><a class="nav-link">Genres</a></li>
-      </ul>
-
-      <!-- Search Bar -->
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search Anime">
-        <button class="btn btn-outline-light">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
-
-
-  </div>
-</div>
-
-<!-- Anime Cards -->
-<div class="container mt-4">
-  <div class="row g-4">
-
-    <!-- Card 1 -->
-    <div class="col-md-3">
-      <div class="card">
-        <img src="C:\Users\HP\Downloads\Naruto1.jpg">
-        <div class="card-body">
-          <h5>Naruto</h5>
-          <p>Ninja story full of action.</p>
-          <button class="btn btn-warning w-100">Watch</button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">LENOVO<span class="text-info">STORE</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#thinkpad">ThinkPad</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ideapad">IdeaPad</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#loq">Gaming LOQ</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-outline-info px-4" href="#">Check Warranty</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </div>
+    </nav>
 
-    <!-- Card 2 -->
-    <div class="col-md-3">
-      <div class="card">
-        <img src="C:\Users\HP\Downloads\OnePiece.jpeg">
-        <div class="card-body">
-          <h5>One Piece</h5>
-          <p>Pirate adventure for treasure.</p>
-          <button class="btn btn-primary w-100">Watch</button>
+    <div id="lenovoHero" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&q=80&w=1920" class="hero-img" alt="ThinkPad">
+                <div class="carousel-caption text-start mb-5">
+                    <span class="badge bg-danger mb-2">Legendary Reliability</span>
+                    <h1 class="display-4 fw-bold">ThinkPad X1 Carbon</h1>
+                    <p class="lead">The gold standard for business professionals worldwide.</p>
+                    <a href="#thinkpad" class="btn btn-lenovo btn-lg">Explore ThinkPad</a>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
-    <!-- Card 3 -->
-    <div class="col-md-3">
-      <div class="card">
-        <img src="C:\Users\HP\Downloads\AOT.jpg">
-        <div class="card-body">
-          <h5>Attack on Titan</h5>
-          <p>Fight against Titans.</p>
-          <button class="btn btn-danger w-100">Watch</button>
+    <div class="container my-5 flex-grow-1">
+        <div class="row text-center mb-5">
+            <div class="col">
+                <h2 class="fw-bold">Compare Lenovo Series</h2>
+                <div class="mx-auto bg-primary mt-2" style="width: 60px; height: 3px;"></div>
+            </div>
         </div>
-      </div>
-    </div>
+        
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&q=80&w=600" class="card-img-top p-3" alt="ThinkPad E14">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">ThinkPad E14 Gen 5</h5>
+                        <p class="text-muted small">Military-grade durability.</p>
+                        <ul class="spec-list mb-4">
+                            <li>Intel Core i5-1335U</li>
+                            <li>16GB RAM / 512GB SSD</li>
+                            <li>FHD+ IPS Display</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <h6 class="fw-bold text-dark mb-3">Starting at $749</h6>
+                            <button class="btn btn-dark w-100">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <!-- Card 4 -->
-    <div class="col-md-3">
-      <div class="card">
-        <img src="C:\Users\HP\Downloads\Demon Slayer.jpg">
-        <div class="card-body">
-          <h5>Demon Slayer</h5>
-          <p>Demon hunting journey.</p>
-          <button class="btn btn-success w-100">Watch</button>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&q=80&w=600" class="card-img-top p-3" alt="IdeaPad Slim 3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">IdeaPad Slim 3</h5>
+                        <p class="text-muted small">Smart features for daily use.</p>
+                        <ul class="spec-list mb-4">
+                            <li>Ryzen 5 7520U</li>
+                            <li>8GB LPDDR5 RAM</li>
+                            <li>Rapid Charge Boost</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <h6 class="fw-bold text-dark mb-3">Starting at $429</h6>
+                            <button class="btn btn-lenovo w-100">View Specs</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm border-0">
+                    <img src="https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?auto=format&fit=crop&q=80&w=600" class="card-img-top p-3" alt="IdeaPad Slim 5">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold">IdeaPad Slim 5</h5>
+                        <p class="text-muted small">Performance meets style.</p>
+                        <ul class="spec-list mb-4">
+                            <li>Intel Core i7-13700H</li>
+                            <li>16GB RAM / 1TB SSD</li>
+                            <li>OLED Display Option</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <h6 class="fw-bold text-dark mb-3">Starting at $689</h6>
+                            <button class="btn btn-lenovo w-100">View Specs</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 shadow-sm border-0 bg-dark text-white">
+                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=600" class="card-img-top p-3" alt="Lenovo LOQ">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="fw-bold text-info">Lenovo LOQ 15</h5>
+                        <p class="text-secondary small">Entry-level gaming beast.</p>
+                        <ul class="spec-list mb-4 text-secondary">
+                            <li>RTX 4050 6GB GPU</li>
+                            <li>144Hz G-Sync Panel</li>
+                            <li>Hyper-Chamber Cooling</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <h6 class="fw-bold text-white mb-3">Starting at $899</h6>
+                            <button class="btn btn-info w-100">Customize</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
-    <!-- Card 5 -->
-    <div class="col-md-3">
-      <div class="card">
-        <img src="C:\Users\HP\Downloads\jjk.jpeg">
-        <div class="card-body">
-          <h5>Jujutsu Kaisen</h5>
-          <p>Curse fighting action.</p>
-          <button class="btn btn-warning w-100">Watch</button>
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <h4 class="fw-bold mb-3">Lenovo Authorized Center</h4>
+                    <p class="text-secondary">Official partner for ThinkPad, IdeaPad, and Legion ecosystem. Get 24/7 Premium Care support on selected models.</p>
+                    <div class="mt-4">
+                        <a href="#" class="text-white me-3 text-decoration-none">Privacy Policy</a>
+                        <a href="#" class="text-white me-3 text-decoration-none">Return Policy</a>
+                        <a href="#" class="text-white text-decoration-none">Terms of Sale</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 border-secondary">
+            <p class="small text-secondary">© 2026 Lenovo Distribution. All rights reserved.</p>
         </div>
-      </div>
-    </div>
+    </footer>
 
-    <!-- Card 6 -->
-    <div class="col-md-3">
-      <div class="card">
-        <img src="C:\Users\HP\Downloads\Death note.jpg">
-        <div class="card-body">
-          <h5>Death Note</h5>
-          <p>Mind games of justice.</p>
-          <button class="btn btn-light w-100">Watch</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Card 7 -->
-    <div class="col-md-3">
-      <div class="card">
-        <img src="C:\Users\HP\Downloads\Tokyo revengers.jpg">
-        <div class="card-body">
-          <h5>Tokyo Revengers</h5>
-          <p>Time travel gang story.</p>
-          <button class="btn btn-danger w-100">Watch</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Card 8 -->
-    <div class="col-md-3">
-      <div class="card">
-        <img src="C:\Users\HP\Downloads\Dragon Ball.jpg">
-        <div class="card-body">
-          <h5>Dragon Ball</h5>
-          <p>Legendary Saiyan battles.</p>
-          <button class="btn btn-primary w-100">Watch</button>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-<!-- Footer -->
-<footer class="text-center text-white p-3 mt-4">
-  <p>© 2026 Anime World | All Rights Reserved</p>
-</footer>
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
